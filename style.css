@@ -106,13 +106,11 @@ body{
     font-family: Garamond, serif;
     background-color: blanchedalmond;
     text-align: center;
+    color: lightskyblue;
+    padding: 10px;
 }
 a{
     text-decoration: none;
     color: cornflowerblue;
-    padding: 10px;
-}
-text{
-    color: lavender;
     padding: 10px;
 }
