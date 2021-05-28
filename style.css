@@ -5,6 +5,10 @@ body{
 }
 a{
     text-decoration: none;
-    color: aliceblue;
+    color: cornflowerblue;
+    padding: 10px;
+}
+text{
+    color: lavender;
     padding: 10px;
 }
