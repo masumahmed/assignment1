@@ -1,3 +1,59 @@
+/*general rules*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap");
+:root {
+  --main-bg-color: #D55151;
+  --accent-color: #141414;
+  --neutral-color: #000000;
+}
+
+html {
+  background: var(--neutral-color) !important;
+  min-height: 100%;
+  color: white;
+}
+
+body {
+  background: var(--neutral-color) !important;
+  min-height: 100%;
+  color: white;
+  margin: 0 auto;
+}
+
+.button {
+  color: lightgrey;
+  border-width: 3px;
+  border-color: var(--main-bg-color);
+  border-style: solid;
+  background: none;
+  padding: 10px;
+  display: inline-block;
+  margin: 0 15px 15px 15px;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.button:hover {
+  background-color: var(--main-bg-color);
+  border-color: var(--neutral-color);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/*header section*/
+#header {
+  background-color: var(--main-bg-color);
+  height: 80px;
+}
+
+#header img {
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
 /*navbar section*/
 #nav {
   overflow: hidden;
