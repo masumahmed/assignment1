@@ -101,3 +101,18 @@ body {
 .active a:hover {
   background-color: #FC4236 !important;
 }
+
+body{
+    font-family: Garamond, serif;
+    background-color: blanchedalmond;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: cornflowerblue;
+    padding: 10px;
+}
+text{
+    color: lavender;
+    padding: 10px;
+}
