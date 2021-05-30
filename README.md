@@ -1,3 +1,11 @@
 # assignment1
 
-Mandy Yu (yumandee)
+Group Members: 
+    Istiaque Khan (istiaquek49)
+    Masum Ahmed (masumahmed)
+    Mandy Yu (yumandee)
+    Stephanie Bravo (stephanieb00)
+
+GitHub Pages Link:
+    to be added
+    
