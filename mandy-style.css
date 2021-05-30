@@ -8,6 +8,11 @@
     src: url(fonts/avocado.ttf);
 }
 
+@font-face {
+  font-family: "modern sans";
+  src: url(fonts/modernsans.otf);
+}
+
 body {
     background-color: #111111;
     overflow: hidden;
@@ -85,12 +90,12 @@ img {
     position:absolute;
     top:0px;
     background:transparent;
-    width:95px;
+    width:100px;
     color:transparent;
     padding-top:15px;
     padding-bottom:5px;
-    font-family:avocado;
-    font-size:20px;
+    font-family:"modern sans";
+    font-size:18px;
     border:2.5px solid transparent;
     border-radius:100px;
     cursor:pointer;
@@ -105,12 +110,12 @@ img {
     position:absolute;
     top:0px;
     background:transparent;
-    width:95px;
+    width:100px;
     color:transparent;
     padding-top:15px;
     padding-bottom:5px;
-    font-family:avocado;
-    font-size:20px;
+    font-family:"modern sans";
+    font-size:18px;
     border:2.5px solid transparent;
     border-radius:100px;
     cursor:pointer;
@@ -125,12 +130,12 @@ img {
     position:absolute;
     top:0px;
     background:transparent;
-    width:95px;
+    width:100px;
     color:transparent;
     padding-top:15px;
     padding-bottom:5px;
-    font-family:avocado;
-    font-size:20px;
+    font-family:"modern sans";
+    font-size:18px;
     border:2.5px solid transparent;
     border-radius:100px;
     cursor:pointer;
