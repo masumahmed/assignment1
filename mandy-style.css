@@ -66,3 +66,79 @@ img {
     font-family: avocado;
     font-size: 25px;
 }
+
+/*navbar*/
+#divaa1{
+    position:absolute;
+    right:150px;
+    width:100px;
+    height:100px;
+    border:5px solid white;
+    border-radius:100px;
+    background:white;
+    transition:.6s;
+  }
+#divaa1:hover{
+    height:260px;
+}
+#btna1{
+    position:absolute;
+    top:0px;
+    background:transparent;
+    width:95px;
+    color:transparent;
+    padding-top:15px;
+    padding-bottom:5px;
+    font-family:avocado;
+    font-size:20px;
+    border:2.5px solid transparent;
+    border-radius:100px;
+    cursor:pointer;
+    transition:.6s;
+  }
+  #divaa1:hover > #btna1{
+    top:90px;
+    color:black;
+    padding-bottom:5px;
+  }
+  #btna2{
+    position:absolute;
+    top:0px;
+    background:transparent;
+    width:95px;
+    color:transparent;
+    padding-top:15px;
+    padding-bottom:5px;
+    font-family:avocado;
+    font-size:20px;
+    border:2.5px solid transparent;
+    border-radius:100px;
+    cursor:pointer;
+    transition:.6s;
+  }
+  #divaa1:hover > #btna2{
+    top:140px;
+    color:black;
+    padding-bottom:5px;
+  }
+  #btna3{
+    position:absolute;
+    top:0px;
+    background:transparent;
+    width:95px;
+    color:transparent;
+    padding-top:15px;
+    padding-bottom:5px;
+    font-family:avocado;
+    font-size:20px;
+    border:2.5px solid transparent;
+    border-radius:100px;
+    cursor:pointer;
+    transition:.6s;
+  }
+  #divaa1:hover > #btna3{
+    top:190px;
+    color:black;
+    padding-bottom:15px;
+  }
+/*end navbar*/
