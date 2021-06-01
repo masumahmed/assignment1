@@ -125,15 +125,3 @@ body {
 #content-page > *{
   padding: 10px;
 }
-.stephBody {
-  font-family: Garamond, serif;
-  background-color: blanchedalmond;
-  text-align: center;
-  color: lightskyblue;
-  padding: 10px;
-}
-a {
-  text-decoration: none;
-  color: cornflowerblue;
-  padding: 10px;
-}
