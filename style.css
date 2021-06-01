@@ -1,9 +1,9 @@
 /*general rules*/
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap");
 :root {
-  --main-bg-color: #D55151;
+  --main-bg-color: #d55151;
   --accent-color: #141414;
-  --neutral-color: #FFFFFF;
+  --neutral-color: #ffffff;
 }
 
 html {
@@ -30,7 +30,7 @@ body {
   display: inline-block;
   margin: 0 15px 15px 15px;
   font-size: 18px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .button:hover {
@@ -40,7 +40,7 @@ body {
   transition: 0.5s;
 }
 
-.carousel-inner img{
+.carousel-inner img {
   height: 100vh;
 }
 /*header section*/
@@ -89,7 +89,7 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 #nav ul li a:hover {
@@ -103,22 +103,37 @@ body {
 }
 
 .active a {
-  background-color: #FC6C2D !important;
+  background-color: #fc6c2d !important;
 }
 
 .active a:hover {
-  background-color: #FC4236 !important;
+  background-color: #fc4236 !important;
 }
 
-.stephBody{
-    font-family: Garamond, serif;
-    background-color: blanchedalmond;
-    text-align: center;
-    color: lightskyblue;
-    padding: 10px;
+.carousel-inner img {
+  height: auto;
+  min-height: 500px;
+  object-fit: cover;
 }
-a{
-    text-decoration: none;
-    color: cornflowerblue;
-    padding: 10px;
+
+#content-page {
+  margin: 50px;
+  text-align: justify;
+  /* display: flexbox;
+  flex-flow: row; */
+}
+#content-page > *{
+  padding: 10px;
+}
+.stephBody {
+  font-family: Garamond, serif;
+  background-color: blanchedalmond;
+  text-align: center;
+  color: lightskyblue;
+  padding: 10px;
+}
+a {
+  text-decoration: none;
+  color: cornflowerblue;
+  padding: 10px;
 }
