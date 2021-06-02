@@ -26,13 +26,6 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-h1{
-  text-align: center;
-  color: rgb(11, 13, 14);
-  font-family: OCR A Std, monospace;
-  font-size: 69px
-}
-
 li a:hover {
   background-color: #111;
 }
@@ -40,6 +33,11 @@ body{
   font-family: OCR A Std, monospace;
   background-color: rgb(42, 124, 53);
   text-align: center;
+}
+h1{
+  color: rgb(11, 13, 14);
+  font-family: OCR A Std, monospace;
+  font-size: 69px
 }
 a{
   text-decoration: none;
