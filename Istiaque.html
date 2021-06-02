@@ -39,6 +39,20 @@ body {
   background-color: #ddd;
   color: black;
 }
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+
 </style>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -55,10 +69,12 @@ body {
 	<h3>Favorite animal: Red Panda</h3>
 	<h3>Favorite number: 8</h3>
 
-    <div class = "content"> 
-        <div class = "img-container"> <img id = "animal" src = "images/Istiaque-panda.jpg"> </div>
-
+        <div class="gallery">
+            <a target="_blank" href="Istiaque-panda.jpg">
+              <img src="Istiaque-panda.jpg" alt="Istiaque panda" width="600" height="400">
+            </a>
     
+
         <div class="topnav">
             <a href="index.html">Home</a>
             <a href="mandy.html">Mandy</a>
